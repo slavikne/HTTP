@@ -19,7 +19,7 @@ class YaUploader:
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_file = 'homework/foto.jpg'
-    token = '  '
+    token = ' '
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
 
